@@ -1,0 +1,122 @@
+Algoritmo menu
+	definir n,subtotal,opc,total,servicio,numh como real
+	subtotal<-0
+	escribir "*****************************************************"
+	escribir "**       bienvenido escoja su complemeto           **"
+	escribir "**seleccione la cantidad de hamburguesas que desee **"
+	leer n
+	para nunh<-1 hasta n con paso 1 hacer
+		
+	 escribir                     "hamburguesa " ,numh
+	 escribir "**                     a.pan                       **"
+	 escribir "**                1. centeno valor de      1000$   **"
+	 escribir "**                 2.   avena              1500$   **"
+	 leer opc
+	 segun opc hacer 
+		1: 
+			subtotal<-subtotal+1000
+		2:
+			subtotal<-subtotal+1500
+	 FinSegun
+	 escribir "**                                                 **"
+	 escribir "**                     b.carne                     **"
+	 escribir "**                     1.250 G             5000$   **"
+	 escribir "**                     2. 300G             7000$   **"
+	 escribir "**                     3.ninguna                   **"
+	 leer opc
+	 segun opc hacer 
+		1: 
+			subtotal<-subtotal+5000
+		2: 
+			subtotal<-subtotal+7000
+			
+	 de otro modo:
+		 subtotal<-subtotal+0
+	 FinSegun
+	 escribir "**                                                 **"
+	 escribir "**                     c.pollo                     **"
+	 escribir "**                      1.250 G            4500$   **"
+	 escribir "**                      2.340 G            5500$   **"
+	 escribir "**                      3.ninguna                  **"
+	 leer opc
+	 segun opc hacer 
+		1: 
+			subtotal<-subtotal+4500
+		2: 
+			subtotal<-subtotal+5500
+		
+		
+			de otro modo :
+		 subtotal<-subtotal+0
+	 FinSegun
+	 escribir "**                                                 **"
+	 escribir "**                     d.pollo desmechado          **"
+	 escribir "**                      1.250 G            6500$   **"
+	 escribir "**                      2.350 G             7500$  **"
+	 escribir "**                      3.ninguna                  **"
+	 leer opc
+	 segun opc hacer 
+		1: 
+			subtotal<-subtotal+6500
+		2: 
+			subtotal<-subtotal+7500
+			
+			
+	 de otro modo :
+			subtotal<-subtotal+0
+	 FinSegun
+	 escribir "**                                                 **"
+	 escribir "**                      e.tocineta                 **"
+	 escribir "**                 1.lonja de tocineta    1500$    **"
+	 escribir "**                 2.lonja de tocineta    2500$    **"
+	 escribir "**                 3.ninguna                       **"
+	 leer opc
+	 segun opc hacer 
+		1: 
+			subtotal<-subtotal+1500
+		2: 
+			subtotal<-subtotal+2500
+		
+	 de otro modo :
+			subtotal<-subtotal+0
+	 FinSegun
+	 escribir "**                                                 **"
+	 escribir "**                       f.papa frita              **"
+	 escribir "**                       1.francesa       5000$    **"
+	 escribir "**                       2.casco          6000$    **"
+	 escribir "**                       3.ninguno                 **"
+	 leer opc
+	 segun opc hacer 
+		1: 
+			subtotal<-subtotal+5000
+		2: 
+			subtotal<-subtotal+6000
+			de otro modo :
+			subtotal<-subtotal+0
+	 FinSegun
+	 escribir "**                                                 **"
+	 escribir "**                        g.bebidas                **"
+	 escribir "**                       1.gaseosa          5000$  **"
+	 escribir "**                2.cerveza club colmbia    8000$  **"
+	 escribir "**                        3.naranjada       9000$  **"
+	 escribir "**                         4.ninguna               **"
+	 leer opc
+	 segun opc hacer 
+		1: 
+			subtotal<-subtotal+5000
+		2: 
+			subtotal<-subtotal+8000
+		3: 
+			subtotal<-subtotal+9000
+			
+	 de otro modo :
+			subtotal<-subtotal+0
+            
+	      FinSegun
+     finpara
+	 servicio<-subtotal*0.10
+	 total<-subtotal+servicio
+	 escribir "subtotal ",subtotal
+	 escribir "servicio ",servicio 
+	 escribir "total ",total
+FinAlgoritmo
