@@ -1,0 +1,120 @@
+Algoritmo prueba
+	definir nombre Como Caracter
+	//programa que verifique si tiene titulo de bachiller 
+	//si no lo tiene debe realizar una prueba
+	escribir "bienvenido registrese en esta pagina"
+	escribir "digite su nombre aqui"
+	leer nombre
+	escribir "digite su fecha de nacimiento "
+	definir fecha como entero
+	fecha =mes
+	fecha =dia
+	fecha =año
+	escribir "mes "
+	leer mes 
+	escribir "dia"
+	leer dia 
+	escribir "año"
+	leer año
+	Limpiar Pantalla
+	definir opc como real
+	escribir"*****************************************************"
+	escribir"**           ¿tiene titulo de bachiller?           **"
+	escribir"**                  1: si               ,          **"
+	escribir"**                  2: no                          **"
+	escribir"*****************************************************"
+	leer opc
+	si (opc==1)entonces escribir "ha ingresado a el curso"
+		escribir "te estaremos contactando por este medio"
+		
+
+		
+		
+		
+	
+	FinSi
+	si (opc>2) mostrar "no existe esta respuesta"
+	FinSi
+	si(opc<1) mostrar "no existe esta respuesta "
+		
+	FinSi
+	si (opc==2) escribir "debe realizar la siguiente prueba "
+	
+		escribir          " 3: hacer prueba   4:salir       "
+		leer opc
+		finsi
+		
+		
+	
+		si (opc==4) entonces limpiar pantalla 
+			finsi
+		
+		
+	
+	
+		definir p1,p2,p3,p4,p5 como caracter
+		definir puntaje Como Entero
+		puntaje=0
+		
+	
+        si (opc==3) Limpiar Pantalla
+		escribir "*********************************************"
+	    escribir "**             matematicas                 **"
+		escribir "**                                         **"
+		escribir "**    Resuelve la siguiente ecuación       **"
+		escribir "**             3x + 5 = 20                 **"
+		escribir "**      p1).¿cual es el valor de x         **"
+		escribir "**    a) 5    b) 3    c) 6     d)8         **"
+		leer p1
+		si (p1="a") o (p1="A") entonces 
+			puntaje=puntaje+1
+			escribir "respuesta correcta"
+		sino 
+			escribir "respuesta incorrecta"
+		finsi
+		escribir "** p2)Si un producto cuesta $80 y tiene un **"
+		escribir "** del 25%,¿cuál es el precio final        **"
+		escribir"¿** después del descuento?                  **"
+		escribir "**    a)50    b)70   c)60   d)45           **"
+		leer p2
+		si (p2="C") o (p2="c") entonces 
+			puntaje=puntaje+1
+			escribir "respuesta correcta"
+		sino 
+			finsi
+			escribir "respuesta incorrecta"
+		escribir "** p3)En una clase de 30 estudiantes las   **" 
+	    escribir "**calificaciones en un examen son las      **"
+	    escribir "**siguientes: 70, 75, 80, 85, 90, 95. Si   **"
+		escribir "**cada calificación se repite cinco veces  **"
+		escribir "**¿cuál es la media de las calificaciones? **"
+		escribir "**   a)78.4  b)80  c)82.5   d)75.5         **"
+		leer p3 
+		si (p3="C") o (p3="c") entonces 
+			puntaje=puntaje+1
+			escribir "respuesta correcta"
+		sino 
+			escribir "respuesta incorrecta"
+			finsi
+		escribir "**p4)Una bolsa contiene 4 canicas rojas3 azul*"
+		escribir "**y 2 verdes. Si se saca una canica al azar**"
+		escribir "**¿cuál es la probabilidad de que sea roja?**"
+		escribir "** a)0.44   b)1,27   c)2,22  d)ninguna     **"
+		leer p4 
+		si (p4="a") o (p4="A") entonces 
+			puntaje=puntaje+1
+			escribir "respuesta correcta"
+		sino 
+			escribir "respuesta incorrecta"
+			escribir "**              prueba finalizada       **"
+			finsi
+		Limpiar Pantalla
+		escribir "has logrado ",puntaje " puntos"
+		escribir " si has obtenido 3 puntos has pasado la prueba "
+		escribir "             escribe a el siguiente numero     "
+		escribir "                  3022914761                   "
+		
+		finsi
+	
+  
+FinAlgoritmo
